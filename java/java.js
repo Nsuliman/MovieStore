@@ -13,5 +13,4 @@ if (hournow > 18 ) {
     greeting
     
     confirm (" Press a Button ")
-    document.write(greeting[]);
-    
+    document.write('hello',greeting[]);
