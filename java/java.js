@@ -26,9 +26,7 @@ if (r == true) {
     document.write(YName + ' : ')
     document.write(Result)
     document.write(' --------> ' + txt)
-    
 
-//////////////////////////////////////////
 /*
 function movie(){
         // input
@@ -49,4 +47,20 @@ function movie(){
         //output:
         return movscn;
     }
+
+    <p>
+        <h3>
+          <script>
+            document.write(createGreeting());
+          </script>
+        </h3>
+      </p>
+
+      <p>
+        <h2>
+          <script>
+             document.write(movie());
+            </script>
+        </h2>
+      </p>
 */
