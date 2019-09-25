@@ -19,24 +19,36 @@ if (Height >= 200 ) {
 
 var r = confirm("Press a button!");
 if (r == true) {
-  txt = "You pressed OK!";
+  txt = " Keep going ";
 } else {
-  txt = "You pressed Cancel!";
+  txt = " try another way!";
 }
     document.write(YName + ' : ')
     document.write(Result)
     document.write(' --------> ' + txt)
 
-/*
-<p>
-        <h3>
-          <script>
-            document.write(createGreeting());
-          </script>
-        </h3>
-      </p>
 
-function createGreeting() {
+    function createGreeting() {
+        // input
+        var today = new Date();
+        var hourNow = today.getHours();
+        var greeting;
+      
+        // processing:
+        if (hourNow > 18) {
+          greeting = 'Good evening, Class!';
+        } else if (hourNow >= 12) {
+          greeting = 'Good afternoon, Class!';
+        } else if (hourNow >= 0) {
+          greeting = 'Good morning!';
+        } else {
+          greeting = 'Welcome!';
+        }
+      
+        //output:
+        return greeting;
+
+/*function createGreeting() {
   // input
   //var today = new Date();
   var hournow = prompt(" Please enter what is the time now : ");
