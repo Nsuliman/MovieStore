@@ -29,7 +29,7 @@ if (r == true) {
     
 
 //////////////////////////////////////////
-
+/*
 function movie(){
         // input
         var favmov = prompt(" Welcome : Please enter which movies you mostly loved :  ");
@@ -48,10 +48,10 @@ function movie(){
       
         //output:
         return movscn;
-    }
+    }*/
 
 
-/*function createGreeting() {
+function createGreeting() {
   // input
   //var today = new Date();
   var hournow = prompt(" Please enter what is the time now : ");
@@ -71,4 +71,4 @@ function movie(){
 
   //output:
   return greeting;
-}*/
+}
