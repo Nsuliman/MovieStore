@@ -1,0 +1,37 @@
+header {
+
+    background-color :  rgb(192, 255, 203);
+    color : purple;
+    text-align : center;
+  }
+
+   nav li {
+    display: inline-block; 
+  }
+h1 {
+    color: rgb(50, 100, 190)
+    
+}
+   nav {
+
+     background-color :  purple;
+   }
+
+   
+  nav a {
+      color: #ee3e80;
+  }
+
+  footer {
+  background-color :  hsl(131, 10%, 78%)
+  opacity: 0.5;
+}
+
+section {
+
+  background-color : gold;
+  color : white;
+
+}
+
+
