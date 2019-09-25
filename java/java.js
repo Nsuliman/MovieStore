@@ -1,5 +1,5 @@
 'use strict'
-
+/*
 var YName = prompt(" Welcome Lady ... Please enter your name : ");
 var Height = prompt(" to know the ideal weight for you ...  Please enter your Height : ");
 var txt;
@@ -27,9 +27,16 @@ if (r == true) {
     document.write(Result)
     document.write(' --------> ' + txt)
     
-
+        <p>
+        <h3>
+          <script>
+            document.write(createGreeting());
+          </script>
+        </h3>
+      </p>
+*/
 //////////////////////////////////////////
-/*
+
 function movie(){
         // input
         var favmov = prompt(" Welcome : Please enter which movies you mostly loved :  ");
@@ -48,7 +55,7 @@ function movie(){
       
         //output:
         return movscn;
-    }*/
+    }
 
 
 function createGreeting() {
