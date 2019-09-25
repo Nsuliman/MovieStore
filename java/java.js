@@ -1,5 +1,6 @@
 'use strict'
 
+////////////////////////////////////////// Prompt & Confirm ///////////////////////////////////
 var YName = prompt(" Welcome Lady ... Please enter your name : ");
 var Height = prompt(" to know the ideal weight for you ...  Please enter your Height : ");
 var txt;
@@ -23,12 +24,12 @@ if (r == true) {
 } else {
   txt = " try another way!";
 }
-    document.write(YName + ' : ')
-    document.write(Result)
-    document.write(' --------> ' + txt)
+    document.write(YName + ' : ');
+    document.write(Result);
+    document.write(' --------> ' + txt);
     
 
-//////////////////////////////////////////
+////////////////////////////////// Function by using SRC /////////////////////////////////////////
 
 function movie(){
         // input
@@ -50,7 +51,7 @@ function movie(){
         return movscn;
     }
 
-
+////////////////////////////////////Copied example //////////////////////////////////////
 function createGreeting() {
   // input
   //var today = new Date();
@@ -72,3 +73,9 @@ function createGreeting() {
   //output:
   return greeting;
 }
+
+/////////////////////////////////////// Loop function //////////////////////////////////////////
+/*var order = prompt("");
+var picture = '';*/
+
+
