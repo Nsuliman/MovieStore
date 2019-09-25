@@ -27,11 +27,16 @@ if (r == true) {
     document.write(Result)
     document.write(' --------> ' + txt)
 
+/*
+<p>
+        <h3>
+          <script>
+            document.write(createGreeting());
+          </script>
+        </h3>
+      </p>
 
-
-
-
-/*function createGreeting() {
+function createGreeting() {
   // input
   //var today = new Date();
   var hournow = prompt(" Please enter what is the time now : ");
@@ -51,18 +56,4 @@ if (r == true) {
 
   //output:
   return greeting;
-}
-
-<p>
-        <h3>
-          <script>
-            document.write(createGreeting());
-          </script>
-        </h3>
-      </p>
-
-
-
-
-
-*/
+}*/
