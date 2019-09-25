@@ -78,7 +78,7 @@ function createGreeting() {
 var order = prompt("To show up the movies for today ... which kind of movies you want :  ");
 var picture = '';
 
-while ( order !== 'Horor' && order !== 'Action' )
+while ( order !== 'Horor' || order !== 'Action' )
 {
     order = prompt(" For today , we have horor or action ");
 }
