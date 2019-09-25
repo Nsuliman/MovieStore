@@ -73,22 +73,6 @@ function createGreeting() {
   //output:
   return greeting;
 }
-
-/////////////////////////////////////// Loop function //////////////////////////////////////////
-var order = prompt("To show up the movies for today ... which kind of movies you want :  ");
-var picture = '';
-
-while ( order !== 'Horor' && order !== 'Action' )
-{
-    order = prompt(" For today , we have horor or action ");
-}
-
-if(order === 'Action'){
-    picture = picture + '<p><img src="https://st2.depositphotos.com/1498528/9192/v/950/depositphotos_91922214-stock-illustration-action-word-icon.jpg'
-} else if (order ==='Horor'){
-    picture = picture +
-
-}
  
 //////////////////////// Loop function //////////////////////////
   var showOrder = function() {
