@@ -1,5 +1,5 @@
 'use strict'
-/*
+
 var YName = prompt(" Welcome Lady ... Please enter your name : ");
 var Height = prompt(" to know the ideal weight for you ...  Please enter your Height : ");
 var txt;
@@ -34,7 +34,7 @@ if (r == true) {
           </script>
         </h3>
       </p>
-*/
+
 //////////////////////////////////////////
 
 function movie(){
