@@ -1,5 +1,5 @@
 'use strict'
-
+/*
 var YName = prompt(" Welcome Lady ... Please enter your name : ");
 var Height = prompt(" to know the ideal weight for you ...  Please enter your Height : ");
 var txt;
@@ -25,7 +25,8 @@ if (r == true) {
 }
     document.write(YName + ' : ')
     document.write(Result)
-    document.write(' --------> ' + txt)
+    document.write(' --------> ' + txt
+    */
 
 //////////////////////////////////////////
 
@@ -35,7 +36,7 @@ if (r == true) {
         var movscn;
       
         // processing:
-        if (favmov = ('comedy') {
+        if (favmov = 'comedy' ) {
             movscn = '<img src="https://i.pinimg.com/236x/f8/6b/ee/f86bee5c87273f1b2a3464c0c6a52acf--comedy-movies-funny-movies.jpg">'
         } else if (favmov = 'action' ) {
             movscn = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZOCvVpXzMH-11CfhhkytZdvKRWthhsMF2yZse-7xy-RC9bF1">'
