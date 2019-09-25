@@ -26,8 +26,10 @@ if (r == true) {
     document.write(YName + ' : ')
     document.write(Result)
     document.write(' --------> ' + txt)
+    
 
-/*
+//////////////////////////////////////////
+
 function movie(){
         // input
         var favmov = prompt(" Welcome : Please enter which movies you mostly loved :  ");
@@ -48,19 +50,25 @@ function movie(){
         return movscn;
     }
 
-    <p>
-        <h3>
-          <script>
-            document.write(createGreeting());
-          </script>
-        </h3>
-      </p>
 
-      <p>
-        <h2>
-          <script>
-             document.write(movie());
-            </script>
-        </h2>
-      </p>
-*/
+function createGreeting() {
+  // input
+  //var today = new Date();
+  var hournow = prompt(" Please enter what is the time now : ");
+  //var hourNow = today.getHours();
+  var greeting;
+
+  // processing:
+  if (hourNow > 18) {
+    greeting = 'Good evening, Class!';
+  } else if (hourNow >= 12) {
+    greeting = 'Good afternoon, Class!';
+  } else if (hourNow >= 0) {
+    greeting = 'Good morning!';
+  } else {
+    greeting = 'Welcome!';
+  }
+
+  //output:
+  return greeting;
+}
